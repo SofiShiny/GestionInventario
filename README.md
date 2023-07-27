@@ -1,7 +1,7 @@
 # GestionInventario
 Sistema de Gestion de inventario que incluye CRUD de productos, proveedores, compras y ventas
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Sobre la arquitectura del sistema
 
 -Abrir la carpeta app para ver los contenedores del sistema (java y res)
@@ -12,9 +12,7 @@ Sobre la arquitectura del sistema
 
 -Utiliza una base de datos RealtimeDatabase de Firebase
 
-
-
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Sobre los requisitos funcionales del sistema
 
 -Registrar, modificar, eliminar, buscar y consultar productos, proveedores, compras y ventas
@@ -23,10 +21,7 @@ Sobre los requisitos funcionales del sistema
 
 -Los usuarios se registran en la aplicacion a traves de los servicios de Google
 
-
-
-
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Sobre los requisitos no funcionales del sistema
 
 -El usuario puede agregar imagenes a los productos y proveedores si lo desea y tambien modificarlas
@@ -35,12 +30,8 @@ Sobre los requisitos no funcionales del sistema
 
 -Aparecen mensajes de error detallados cuando las verificaciones y validaciones implementadas no se cumplen
 
-
-
-
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Limitaciones
-
 -La aplicacion solo funciona para android
 
 -No se realizaron suficientes casos de prueba
