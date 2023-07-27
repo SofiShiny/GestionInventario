@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/listViewLayoutCompras">
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:text="COMPRA"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/color_eliminar"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="costo"
+
+            android:id="@+id/textViewCosto"
+            android:textSize="15dp"
+            android:gravity="left"
+
+            android:textColor="@color/color_eliminar">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="producto"
+            android:id="@+id/textViewProductoC"
+            android:textSize="15dp"
+            android:gravity="left"
+
+            android:textColor="@color/negro">
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

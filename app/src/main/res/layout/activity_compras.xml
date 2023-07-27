@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/blanco">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:id="@+id/searchViewCompras"
+        android:background="@color/amarillo_principal">
+
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listViewCompras"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="116dp"
+        android:layout_marginBottom="85dp"
+        android:scrollbars="vertical"
+        android:divider="@color/color_eliminar"
+        android:dividerHeight="5.0sp">
+
+    </ListView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNavigationView"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_background"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:elevation="2dp"
+        app:menu="@menu/bottom_menu"
+        app:itemIconSize="30dp"
+        app:itemTextColor="@color/item_selector"
+        app:itemIconTint="@color/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:itemActiveIndicatorStyle="@android:color/transparent"
+        app:labelVisibilityMode="labeled"/>
+
+    <Button
+        android:id="@+id/boton_ventas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Mostrar ventas "
+        android:layout_above="@id/bottomNavigationView"
+        android:layout_marginHorizontal="16dp"
+        android:backgroundTint="@color/verde_principal"
+        android:textColor="@color/negro"
+        android:clickable="true"
+        android:contentDescription="Registrar y Agregar Producto"
+        android:fadeScrollbars="true"
+        app:fabSize="normal" />
+
+    <Button
+        android:id="@+id/boton_compras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar compras"
+        android:textColor="@color/negro"
+
+        android:layout_above="@id/bottomNavigationView"
+        android:layout_marginHorizontal="16dp"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="@color/color_eliminar"
+        android:clickable="true"
+        android:contentDescription="Eliminar cantidaad Producto"
+        android:fadeScrollbars="true"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/baseline_horizontal_rule_24" />
+
+
+</RelativeLayout>

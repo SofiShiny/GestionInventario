@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_inventario"
+        android:icon="@drawable/baseline_assignment_24"
+        android:title="@string/icono_inventario"/>
+
+    <item
+        android:id="@+id/bottom_ventas"
+        android:icon="@drawable/baseline_savings_24"
+        android:title="@string/icono_ventas"/>
+
+    <item
+        android:id="@+id/bottom_proveedores"
+        android:icon="@drawable/baseline_garage_24"
+        android:title="@string/icono_proveedores"/>
+
+</menu>

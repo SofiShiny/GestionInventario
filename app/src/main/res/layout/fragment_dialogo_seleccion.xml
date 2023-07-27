@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/barraSuperior"
+        android:orientation="horizontal"
+        android:background="@color/verde_principal"
+        android:elevation="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/negro"
+            android:layout_weight="1"
+            android:text="Seleccion"
+            android:gravity="center_horizontal"/>
+
+        <ImageButton
+            android:id="@+id/boton_salir_seleccion"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/baseline_clear_24"
+            android:text="salir"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/boton_registrar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/negro"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="95dp"
+            android:text="Registrar producto"
+            android:backgroundTint="@color/verde_luz"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/boton_agregar_existencia"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textColor="@color/negro"
+            android:layout_marginTop="30dp"
+            android:text="Agregar Cantidad"
+            android:backgroundTint="@color/verde_luz"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

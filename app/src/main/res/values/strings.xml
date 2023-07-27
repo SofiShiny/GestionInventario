@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Gestion Inventario</string>
+    <string name="textViewBienvenida">BIENVENIDO AL HIMALAYA, helao?</string>
+    <string name="buttonCerrarSesion">CERRAR SESION</string>
+    <string name="textViewRespuesta">Presione para iniciar sesión</string>
+    <string name="textViewCargando">Cargando . . .</string>
+    <string name="imageViewLogo">Logo</string>
+    <string name="imageViewSplash">Splash</string>
+    <string name="icono_inventario">Inventario</string>
+    <string name="icono_ventas">Finanzas</string>
+    <string name="icono_proveedores">Proveedores</string>
+    <string name="opcion_cerrarsesion">Cerrar sesión</string>
+    <string name="error_camposObligatorios">Error, rellene los campos obligatorios</string>
+    <string name="error_cantidadInvalida">Error, cantidad invalida</string>
+    <string name="error_cantidad_producto">Error, cantidad debe ser un numero entre el stock minimo y maximo</string>
+    <string name="error_idRepetido">Error, el ID ingresado esta repetido, ingrese otro</string>
+    <string name="error_stock">Error, el stock minimo debe ser el numero menor y el stock maximo el numero mayor</string>
+    <string name="error_strings">Error, no puede colocar alfabeticos o simbolos en precio, cantidad ni stock</string>
+    <string name="exito_transaccion">Se registro su transaccion correctamente</string>
+    <string name="exito_eliminacion_producto">Se elimino el producto correctamente</string>
+    <string name="exito_eliminacion_proveedor">Se elimino el proveedor correctamente</string>
+    <string name="exito_modificacion_proveedor">Se modifico el proveedor correctamente</string>
+    <string name="exito_modificacion_producto">Se modifico el producto correctamente</string>
+    <string name="exito_registro">Se registro su producto correctamente</string>
+    <string name="exito_registro_proveedor">Se registro su proveedor correctamente</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

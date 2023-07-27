@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GestionInventario" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/verde_principal</item>
+        <item name="colorPrimaryVariant">@color/verde_sombra</item>
+        <item name="colorOnPrimary">@color/blanco_suave</item>
+
+        <item name="colorSecondary">@color/amarillo_principal</item>
+        <item name="colorSecondaryVariant">@color/verde_luz</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="SlideActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/deslizar_derecha</item>
+        <item name="android:activityOpenExitAnimation">@anim/deslizar_izquierda</item>
+    </style>
+    <style name="Theme.GestionInventario" parent="Base.Theme.GestionInventario" />
+
+</resources>

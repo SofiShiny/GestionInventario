@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registre un proveedor"
+        android:gravity="center_horizontal"
+        android:textSize="40sp">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/imagenProveedor"
+        android:layout_width="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_agregar_imagen_foreground"/>
+
+
+    <EditText
+        android:hint="*Nombre"
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30sp"
+        android:inputType="text" />
+
+    <EditText
+        android:hint="*Producto"
+        android:id="@+id/editTextProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30sp"
+        android:inputType="text" />
+
+    <EditText
+        android:hint="Telefono"
+        android:id="@+id/editTextTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30sp"
+        android:inputType="text" />
+
+    <EditText
+        android:hint="Direccion"
+        android:id="@+id/editTextDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30sp"
+        android:inputType="text" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/boton_aceptar_registro"
+            android:text="Aceptar"
+            android:textSize="22sp"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginTop="10dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/boton_salir_registro"
+            android:text="Regresar"
+            android:textSize="22sp"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="10dp">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

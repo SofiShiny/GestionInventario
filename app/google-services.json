@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "504948536250",
+    "project_id": "kshin-gestion-de-inventario",
+    "storage_bucket": "kshin-gestion-de-inventario.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504948536250:android:08de8a4b2b23aa44bc2383",
+        "android_client_info": {
+          "package_name": "com.example.gestioninventario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504948536250-onvm21ci41eqo2g3hfh9duqk92m2sqcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAQ3gPMJgMZBY5VtwjJcIkOMok7EjqVMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504948536250-aq8egdruf6vastonr0ddgc7dqap8p5ts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504948536250:android:61a81f54e6972dcabc2383",
+        "android_client_info": {
+          "package_name": "com.example.micara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504948536250-kpjmieo98rkf5ni96nso2djmi0locjtu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.micara",
+            "certificate_hash": "cb59b967384597c57884a2cfeec72951ee9cfee5"
+          }
+        },
+        {
+          "client_id": "504948536250-onvm21ci41eqo2g3hfh9duqk92m2sqcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAQ3gPMJgMZBY5VtwjJcIkOMok7EjqVMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504948536250-aq8egdruf6vastonr0ddgc7dqap8p5ts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

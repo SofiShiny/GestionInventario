@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registre su producto"
+        android:textSize="25sp"
+        android:gravity="center_horizontal">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imagenProveedor"
+        android:layout_width="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ic_agregar_imagen_foreground"/>
+
+    <EditText
+        android:hint="*Nombre"
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="text" />
+
+    <EditText
+        android:hint="*ID"
+        android:id="@+id/editTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="text" />
+
+    <EditText
+        android:hint="*Precio"
+        android:id="@+id/editTextPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="text" />
+
+    <EditText
+        android:hint="*Cantidad"
+        android:id="@+id/editTextCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="text" />
+
+    <EditText
+        android:hint="Stock minimo"
+        android:id="@+id/editTextStockMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="text" />
+
+    <EditText
+        android:hint="Stock maximo"
+        android:id="@+id/editTextStockMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="text" />
+
+    <EditText
+        android:hint=""
+        android:visibility="invisible"
+        android:id="@+id/editTextCaracteristica1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="text" />
+    <EditText
+        android:hint=""
+        android:id="@+id/editTextCaracteristica2"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="text" />
+    <EditText
+        android:hint=""
+        android:id="@+id/editTextCaracteristica3"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="text" />
+    <EditText
+        android:hint=""
+        android:id="@+id/editTextCaracteristica4"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="text" />
+    <EditText
+        android:hint=""
+        android:id="@+id/editTextCaracteristica5"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/boton_aceptar_registro"
+            android:text="Aceptar"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/boton_salir_registro"
+            android:text="Regresar"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp">
+
+        </Button>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton_caracteristica_nueva"
+        android:text="Nueva Caracteristica"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="10dp">
+
+    </Button>
+
+</LinearLayout>
